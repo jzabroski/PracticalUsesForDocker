@@ -86,7 +86,11 @@ If you try to install Docker Desktop on Windows 10 Home, it will fail.
     9. `--attach` : Attaches the container to stdin, stderr, stdout
         a. Useful for troubleshooting why your container dies within the first seconds or minutes after it starts.
         b. Remember, containers have no memory, so if you don't think through how to monitor them, you won't know why they stop.
-        
+        c. **Still can't figure out why your having problems?**
+            1. Make sure you're running docker.exe as Administrator in order for it to call CreateProcess
+            2. Microsoft Premiere Support created a Troubleshooting PowerShell script for Windows Containers to help you out! https://docs.microsoft.com/en-us/virtualization/windowscontainers/troubleshooting
+            3. Check the Windows Event Log under Application events with Source equal to Docker.
+            `Get-EventLog -LogName Application -Source Docker -After (Get-Date).AddMinutes(-30) -EntryType Error | Sort-Object Time`
 # Docker Basics
 
 Every command in a Dockerfile creates a thing called a _layer_ in your _docker image_.
