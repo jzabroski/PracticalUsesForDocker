@@ -1,6 +1,10 @@
 # Practical Uses For Docker
 For Docker talk at NEMD December 2019
 
+# Disclaimers
+
+SSRS is defintely not supported in containers.  BUT!  It is pretty useful for your lower level test environments that you might have previously deployed on a single machine to save on licensing costs and reduce IT footprint / machines that need patching and security updates!
+
 # Getting Started Installing Docker on Windows
 
 We'll be using PowerShell Core, Docker Desktop and Docker Kinematic.
