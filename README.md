@@ -81,6 +81,27 @@ If you try to install Docker Desktop on Windows 10 Home, it will fail.
     9. `--attach` : Attaches the container to stdin, stderr, stdout
         a. Useful for troubleshooting why your container dies within the first seconds or minutes after it starts.
         b. Remember, containers have no memory, so if you don't think through how to monitor them, you won't know why they stop.
+        
+# Docker Basics
+
+Every command in a Dockerfile creates a thing called a _layer_ in your _docker image_.
+
+_Layers_ increase the size of your docker image.
+
+More layers equals larger images equals more storage costs / longer download times.
+
+Advice: Worry about getting it correct before you worry about optimizing for size.
+
+Each command is a _directive_.
+
+Useful directives include:
+
+* `EXPOSE` to expose a port to the docker hosting service.
+* `RUN` to run a command
+* `ENTRYPOINT` to define the command docker will run when starting the container.
+* `HEALTHCHECK` to determine the health of the container ITSELF.  Do not abuse this to check on the health of external services.
+* Other directives cover things like metadata about who maintains this image, etc.
+* The [Dockerfile file format](https://docs.docker.com/engine/reference/builder/) / language is available online in the documentation.
 
 # Using Kitematic
 
