@@ -139,3 +139,8 @@ Docker Containers are commonly used in CryptoJacking attacks, because the contai
 # Alternatives To Consider
 
 Paul Stanton started WinDocks to solve precisely problems like these.  He has a Community Edition of his WinDocks platform, and a guide for using [SQL Server Reporting Service (SSRS) Containers for SQL Azure and AWS RDS](https://www.windocks.com/lps/ssrs)
+
+My Notes:
+
+1. Getting a copy of WinDocks Community Edition requires you to fill out some contact information so WinDocks sales representatives can sell you on upgrading.
+2. The Installer says it is untrusted from Nirvaha Corporation.  Googling around, Nirvaha seemed to be a trusted company started by ex-Microsoft employees.  I gave it a go on my old personal computer, but not on my company purchased computer.
