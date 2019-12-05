@@ -81,3 +81,17 @@ If you try to install Docker Desktop on Windows 10 Home, it will fail.
     9. `--attach` : Attaches the container to stdin, stderr, stdout
         a. Useful for troubleshooting why your container dies within the first seconds or minutes after it starts.
         b. Remember, containers have no memory, so if you don't think through how to monitor them, you won't know why they stop.
+
+# Using Kitematic
+
+Kitematic is a graphical approach to managing your docker containers.  If you're allergic to the command line, you might find this tool useful.
+
+_In my limited experience, I found this tool has some rather strange bugs, so I avoid using it, but it's really cool for demoes._
+
+1. Go to the Windows "Type here to search" box.  Type "Kitematic" and press enter.
+2. The first time you start Kitematic, it will ask you to **Enter your Docker Hub credentials**.
+    a. If you don't have Docker Hub credentials, create an account.
+    b. If you push images to the Docker Hub, by default it will publish using this account name, so don't pick an embarassing account name!
+3. After successfully logging in, you will arrive at the Kitematic Welcome screen
+    1. Your containers are listed on the left
+    2. In the main view pane, you will see suggested / popular images from the Docker Hub.
