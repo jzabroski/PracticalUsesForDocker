@@ -108,6 +108,7 @@ Each command is a _directive_.
 
 Useful directives include:
 
+* `FROM` defines your base image you will build your container from.
 * `EXPOSE` to expose a port to the docker hosting service.
 * `RUN` to run a command
 * `ENTRYPOINT` to define the command docker will run when starting the container.
