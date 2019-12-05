@@ -32,3 +32,18 @@ If you try to install Docker Desktop on Windows 10 Home, it will fail.
     ```
 
 6. After these install, you have to log out of Windows and log back in, so that your user account's `docker-users` group membership takes effect.
+
+7. After logging back in, open Windows PowerShell Core and run the following command:
+    ```powershell
+    run docker run -d -p 1433:1433 -p 80:80 -v C:/ssrs/:C:/sqldata/ -e sa_password=Compl3xPassw0rd -e ssrs_user=SSRSAdmin -e ssrs_password=Compl3xPassw0rd4Ssrs randreng/ssrs --attach
+    ```
+    This command does a couple of things, which you can look in the [commandline/run](https://docs.docker.com/engine/reference/commandline/run/) documentation:
+    1. `-d` : Run container in background and print container ID
+    2. `-p 1433:1433` : Publish a container’s port (1433) to the host (1433)
+    3. `-p 80:80` : Publish a container's port (80) to the host (80)
+    4. `-v C:/ssrs/:C:/sqlData/` : [Bind mount](https://docs.docker.com/engine/reference/commandline/run/#mount-volume--v---read-only) a volume.  In this case, we're mounting C:/ssrs/ to C:/sqlData/
+        a. When the host directory of a bind-mounted volume doesn’t exist, Docker will automatically create this directory on the host for you. In the example above, Docker will create the /doesnt/exist folder before starting your container.
+        b. On Windows, the paths must be specified using Windows-style semantics.
+
+
+    3. `
