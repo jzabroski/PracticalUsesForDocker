@@ -32,6 +32,7 @@ If you try to install Docker Desktop on Windows 10 Home, it will fail.
     ```
 
 6. After these install, you have to log out of Windows and log back in, so that your user account's `docker-users` group membership takes effect.
+    1. If you don't log out and log back in, upon trying to start **Docker Desktop**, you'll get an event toaster error telling you "Docker Desktop - Requires Log out" and explaining that it is so your docker-users membership can take effect.
 
 7. After logging back in, in the Windows "Type here to search" box, search for **Docker Desktop**.
     1. As Docker starts, you'll see an event toaster in the bottom right saying docker might take a few moments to start.
