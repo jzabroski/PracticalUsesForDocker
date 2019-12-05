@@ -38,6 +38,8 @@ If you try to install Docker Desktop on Windows 10 Home, it will fail.
     2. As its starting, it will detect you do not have Hyper-V and Container features enabled.
     3. Click OK and it will restart your computer.
     
+![Docker Is So Needy](docker.png)
+    
 8. After your computer restarts, log back in.
 
 9. Open Windows PowerShell Core and run the following command, which will benchmark how long it takes to pull down the image:
