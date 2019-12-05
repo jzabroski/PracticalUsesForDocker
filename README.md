@@ -86,7 +86,7 @@ If you try to install Docker Desktop on Windows 10 Home, it will fail.
 
 Kitematic is a graphical approach to managing your docker containers.  If you're allergic to the command line, you might find this tool useful.
 
-_In my limited experience, I found this tool has some rather strange bugs, so I avoid using it, but it's really cool for demoes._
+_In my limited experience, I found this tool has some rather strange bugs, so I avoid using it, but it's really cool for demoes.  The current release is 0.17.9 (to give you an idea of what the authors think of the stability and robustness of this program)._
 
 1. Go to the Windows "Type here to search" box.  Type "Kitematic" and press enter.
 2. The first time you start Kitematic, it will ask you to **Enter your Docker Hub credentials**.
@@ -96,3 +96,9 @@ _In my limited experience, I found this tool has some rather strange bugs, so I 
     1. Your containers are listed on the left
     2. In the main view pane, you will see suggested / popular images from the Docker Hub.
     ![Kitematic Welcome Screen](KitematicWelcomeScreen.png)
+
+# Docker Security
+
+Be careful of how you expose your Docker Daemon Admin Port.  Lock it down.  Don't use "helpful tools" that require you to expose your Admin Port unnecessarily if you can avoid it.
+
+Docker Containers are commonly used in CryptoJacking attacks, because the container can run arbitrary untrusted code, such as using `wget` to download cryptomining software.  See this ZDNet article for more information: https://www.zdnet.com/article/this-is-how-docker-can-be-exploited-to-covertly-mine-for-cryptocurrency/
