@@ -46,8 +46,11 @@ If you try to install Docker Desktop on Windows 10 Home, it will fail.
     ```powershell
     Measure-Command { docker pull randreng/ssrs | Out-Default }
     ```
-    a. Knowing how long it takes to download your base image will help give you a sense of how long to expect it to take to spin up a container from scratch on a new machine.
-    b. This download time might _also_ convince you to invest in a local Docker Registry or a Registry co-located with your applications.
+    **This command will fail the first time you run it.  The failure message is not in red blood, so read carefully!**
+    
+    1. The error message is "_image operating system "windows" cannot be used on this platform_"
+    2. Knowing how long it takes to download your base image will help give you a sense of how long to expect it to take to spin up a container from scratch on a new machine.
+    3. This download time might _also_ convince you to invest in a local Docker Registry or a Registry co-located with your applications.
     
 10. Once your image has been pulled (downloaded) from the docker registry,
     ```powershell
