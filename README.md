@@ -133,4 +133,4 @@ _In my limited experience, I found this tool has some rather strange bugs, so I 
 
 Be careful of how you expose your Docker Daemon Admin Port.  Lock it down.  Don't use "helpful tools" that require you to expose your Admin Port unnecessarily if you can avoid it.
 
-Docker Containers are commonly used in CryptoJacking attacks, because the container can run arbitrary untrusted code, such as using `wget` to download cryptomining software.  See this ZDNet article for more information: https://www.zdnet.com/article/this-is-how-docker-can-be-exploited-to-covertly-mine-for-cryptocurrency/
+Docker Containers are commonly used in CryptoJacking attacks, because the container can run arbitrary untrusted code, such as using `wget` to download cryptomining software.  See this ZDNet article for more information: https://www.zdnet.com/article/this-is-how-docker-can-be-exploited-to-covertly-mine-for-cryptocurrency/  A year later, ZDNet wrote another article about a hacking group exploiting the Admin Port on a docker host: https://www.zdnet.com/google-amp/article/a-hacking-group-is-hijacking-docker-systems-with-exposed-api-endpoints/
