@@ -45,7 +45,9 @@ If you try to install Docker Desktop on Windows 10 Home, it will fail.
     
 ![Docker Is So Needy Example 2](docker.png)
     
-8. After your computer restarts, log back in.
+8. After your computer restarts, log back in.  In the Windows "Type here to search box", search for **Docker Desktop**.
+    1. _Uhh..._ you might get the following error if you haven't enabled virtualization in your BIOS.
+    ![Docker Is So Needy Example 3](DockerDesktopBiosError.png)
 
 9. Open Windows PowerShell Core and run the following command, which will benchmark how long it takes to pull down the image:
     ```powershell
