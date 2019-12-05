@@ -110,6 +110,7 @@ Useful directives include:
 
 * `FROM` defines your base image you will build your container from.
 * `EXPOSE` to expose a port to the docker hosting service.
+* `COPY` to copy scripts to the docker engine (in order to run it).
 * `RUN` to run a command
 * `ENTRYPOINT` to define the command docker will run when starting the container.
 * `HEALTHCHECK` to determine the health of the container ITSELF.  Do not abuse this to check on the health of external services.
