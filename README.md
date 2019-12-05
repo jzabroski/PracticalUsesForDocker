@@ -31,3 +31,4 @@ If you try to install Docker Desktop on Windows 10 Home, it will fail.
     choco install docker-kitematic -y
     ```
 
+6. After these install, you have to log out of Windows and log back in, so that your user account's `docker-users` group membership takes effect.
