@@ -136,6 +136,16 @@ Be careful of how you expose your Docker Daemon Admin Port.  Lock it down.  Don'
 
 Docker Containers are commonly used in CryptoJacking attacks, because the container can run arbitrary untrusted code, such as using `wget` to download cryptomining software.  See this ZDNet article for more information: https://www.zdnet.com/article/this-is-how-docker-can-be-exploited-to-covertly-mine-for-cryptocurrency/  A year later, ZDNet wrote another article about a hacking group exploiting the Admin Port on a docker host: https://www.zdnet.com/google-amp/article/a-hacking-group-is-hijacking-docker-systems-with-exposed-api-endpoints/
 
+## Inspect Docker Images Before Running Them!
+
+```powershell
+docker inspect phola/ssrs
+```
+
+```powershell
+docker history phola/ssrs --no-trunc
+```
+
 # Alternatives To Consider
 
 Paul Stanton started WinDocks to solve precisely problems like these.  He has a Community Edition of his WinDocks platform, and a guide for using [SQL Server Reporting Service (SSRS) Containers for SQL Azure and AWS RDS](https://www.windocks.com/lps/ssrs)
