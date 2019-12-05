@@ -95,3 +95,4 @@ _In my limited experience, I found this tool has some rather strange bugs, so I 
 3. After successfully logging in, you will arrive at the Kitematic Welcome screen
     1. Your containers are listed on the left
     2. In the main view pane, you will see suggested / popular images from the Docker Hub.
+    ![Kitematic Welcome Screen](KitematicWelcomeScreen.png)
