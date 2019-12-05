@@ -15,6 +15,7 @@ These tools take time to install, as does pulling down your first docker images.
 
 Docker Desktop requires **Windows 10 Pro**.
 If you try to install Docker Desktop on Windows 10 Home, it will fail.
+This demo requires **SQL Server 2017**.
 
 ## Install Chocolatey, PowerShell Core, Docker Desktop and Docker Kinematic
 
