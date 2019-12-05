@@ -1,4 +1,4 @@
-# PracticalUsesForDocker
+# Practical Uses For Docker
 For Docker talk at NEMD December 2019
 
 # Getting Started Installing Docker on Windows
