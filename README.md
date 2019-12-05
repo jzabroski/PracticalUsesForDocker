@@ -7,11 +7,16 @@ We'll be using PowerShell Core, Docker Desktop and Docker Kinematic.
 
 These tools take time to install, as does pulling down your first docker images.
 
+## Pre-requisites
+
+Docker Desktop requires **Windows 10 Pro**.
+If you try to install Docker Desktop on Windows 10 Home, it will fail.
+
 ## Install Chocolatey, PowerShell Core, Docker Desktop and Docker Kinematic
 
 1. Open PowerShell Classic, using Run As Administrator, and run the following command:
     ```powershell
-    
+    Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
     ```
 
 2. Close the PowerShell Classic window.
