@@ -163,5 +163,6 @@ My Notes:
 
 # Feedback
 
-Thanks to Wil Low for suggesting to consider versioning.
+Thanks to Wil Low for suggesting to consider container versioning best practices, especially to give people guidance on how to use docker containers with teams of 80 people.
+
 Thanks to Sean Fleming for suggesting use case of hosting legacy win32 GUI applications with per-user configurations in a Windows 10 container.
