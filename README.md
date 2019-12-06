@@ -160,3 +160,8 @@ My Notes:
 
 1. Getting a copy of WinDocks Community Edition requires you to fill out some contact information so WinDocks sales representatives can sell you on upgrading.
 2. The Installer says it is untrusted from Nirvaha Corporation.  Googling around, Nirvaha seemed to be a trusted company started by ex-Microsoft employees.  I gave it a go on my old personal computer, but not on my company purchased computer.
+
+# Feedback
+
+Thanks to Wil Low for suggesting to consider versioning.
+Thanks to Sean Fleming for suggesting use case of hosting legacy win32 GUI applications with per-user configurations in a Windows 10 container.
