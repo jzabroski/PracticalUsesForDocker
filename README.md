@@ -152,6 +152,8 @@ docker history phola/ssrs --no-trunc
 
 [Practical Docker with Python: Build, Release and Distribute your Python App with Docker](https://www.amazon.com/Practical-Docker-Python-Release-Distribute-ebook/dp/B07FYZFKHQ)
 
+The book says Python, but the first couple of chapters require effectively no Python knowledge.  The code is available here: https://github.com/Apress/practical-docker-with-python
+
 # Alternatives To Consider
 
 Paul Stanton started WinDocks to solve precisely problems like these.  He has a Community Edition of his WinDocks platform, and a guide for using [SQL Server Reporting Service (SSRS) Containers for SQL Azure and AWS RDS](https://www.windocks.com/lps/ssrs)
