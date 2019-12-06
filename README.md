@@ -148,6 +148,10 @@ docker inspect phola/ssrs
 docker history phola/ssrs --no-trunc
 ```
 
+# Recommended Reading
+
+[Practical Docker with Python: Build, Release and Distribute your Python App with Docker](https://www.amazon.com/Practical-Docker-Python-Release-Distribute-ebook/dp/B07FYZFKHQ)
+
 # Alternatives To Consider
 
 Paul Stanton started WinDocks to solve precisely problems like these.  He has a Community Edition of his WinDocks platform, and a guide for using [SQL Server Reporting Service (SSRS) Containers for SQL Azure and AWS RDS](https://www.windocks.com/lps/ssrs)
