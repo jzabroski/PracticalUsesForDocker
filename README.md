@@ -154,6 +154,12 @@ docker history phola/ssrs --no-trunc
 
 The book says Python, but the first couple of chapters require effectively no Python knowledge.  The code is available here: https://github.com/Apress/practical-docker-with-python
 
+# Recommended "ASP.NET Core with Docker" Examples 
+
+https://github.com/rafaelfgx/DotNetCoreArchitecture
+https://github.com/dotnet-architecture/eShopOnContainers - shopping website built by Microsoft as a reference architecture for using a Kubernetes cluster in Azure
+
+
 # Alternatives To Consider
 
 Paul Stanton started WinDocks to solve precisely problems like these.  He has a Community Edition of his WinDocks platform, and a guide for using [SQL Server Reporting Service (SSRS) Containers for SQL Azure and AWS RDS](https://www.windocks.com/lps/ssrs)
