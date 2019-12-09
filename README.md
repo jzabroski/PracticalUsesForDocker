@@ -138,6 +138,8 @@ Be careful of how you expose your Docker Daemon Admin Port.  Lock it down.  Don'
 
 Docker Containers are commonly used in CryptoJacking attacks, because the container can run arbitrary untrusted code, such as using `wget` to download cryptomining software.  See this ZDNet article for more information: https://www.zdnet.com/article/this-is-how-docker-can-be-exploited-to-covertly-mine-for-cryptocurrency/  A year later, ZDNet wrote another article about a hacking group exploiting the Admin Port on a docker host: https://www.zdnet.com/google-amp/article/a-hacking-group-is-hijacking-docker-systems-with-exposed-api-endpoints/
 
+See also: [The Dangers of Docker.sock](https://raesene.github.io/blog/2016/03/06/The-Dangers-Of-Docker.sock/) which explains that many tutorials might encourage you to give a child container access to the parent docker container's administrative socket.
+
 ## Inspect Docker Images Before Running Them!
 
 ```powershell
@@ -158,7 +160,6 @@ The book says Python, but the first couple of chapters require effectively no Py
 
 https://github.com/rafaelfgx/DotNetCoreArchitecture
 https://github.com/dotnet-architecture/eShopOnContainers - shopping website built by Microsoft as a reference architecture for using a Kubernetes cluster in Azure
-
 
 # Alternatives To Consider
 
