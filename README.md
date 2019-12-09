@@ -138,7 +138,7 @@ Be careful of how you expose your Docker Daemon Admin Port.  Lock it down.  Don'
 
 Docker Containers are commonly used in CryptoJacking attacks, because the container can run arbitrary untrusted code, such as using `wget` to download cryptomining software.  See this ZDNet article for more information: https://www.zdnet.com/article/this-is-how-docker-can-be-exploited-to-covertly-mine-for-cryptocurrency/  A year later, ZDNet wrote another article about a hacking group exploiting the Admin Port on a docker host: https://www.zdnet.com/google-amp/article/a-hacking-group-is-hijacking-docker-systems-with-exposed-api-endpoints/
 
-See also: [The Dangers of Docker.sock](https://raesene.github.io/blog/2016/03/06/The-Dangers-Of-Docker.sock/) which explains that many tutorials might encourage you to give a child container access to the parent docker container's administrative socket.
+See also: [The Dangers of Docker.sock](https://raesene.github.io/blog/2016/03/06/The-Dangers-Of-Docker.sock/) which explains that many tutorials might encourage you to give a child container access to the parent docker container's administrative socket.  A practical exploit created by Ben Hall demonstrates that even if you have [`--read-only`](https://docs.docker.com/engine/reference/commandline/run/#mount-volume--v---read-only) specified on the port, you can still create docker containers.
 
 ## Inspect Docker Images Before Running Them!
 
