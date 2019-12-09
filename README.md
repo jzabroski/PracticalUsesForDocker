@@ -173,4 +173,6 @@ My Notes:
 
 Thanks to Wil Low for suggesting to consider container versioning best practices, especially to give people guidance on how to use docker containers with teams of 80 people.
 
+Additional feedback was: how to find the right base images to base your container off of? Can it be used to manage Windows hotfixes?
+
 Thanks to Sean Flynn for suggesting use case of hosting legacy win32 GUI applications with per-user configurations in a Windows 10 container.
