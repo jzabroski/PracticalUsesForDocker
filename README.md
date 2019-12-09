@@ -176,3 +176,5 @@ Thanks to Wil Low for suggesting to consider container versioning best practices
 Additional feedback was: how to find the right base images to base your container off of? Can it be used to manage Windows hotfixes?
 
 Thanks to Sean Flynn for suggesting use case of hosting legacy win32 GUI applications with per-user configurations in a Windows 10 container.
+
+Thanks to Carlos (from FluentMigrator project) for suggesting we try [Docker-in-Docker (aka dind)](https://hub.docker.com/_/docker) to run all tests concurrently. 
