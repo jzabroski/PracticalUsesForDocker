@@ -152,6 +152,8 @@ docker inspect phola/ssrs
 docker history phola/ssrs --no-trunc
 ```
 
+See also the Docker documentation best practice article: [Scan images for vulnerabilities](https://docs.docker.com/ee/dtr/user/manage-images/scan-images-for-vulnerabilities/)
+
 # Recommended Reading
 
 [Practical Docker with Python: Build, Release and Distribute your Python App with Docker](https://www.amazon.com/Practical-Docker-Python-Release-Distribute-ebook/dp/B07FYZFKHQ)
