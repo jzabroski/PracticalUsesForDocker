@@ -17,6 +17,8 @@ Docker Desktop requires **Windows 10 Pro**.
 If you try to install Docker Desktop on Windows 10 Home, it will fail.
 This demo requires **SQL Server 2017**.
 
+Note: If you don't have Windows 10 Pro, you can still use Docker via **Docker Toolbox** instead, or using a virtual machine like VirtualBox which provides virtualization hooks for Docker.
+
 ## Install Chocolatey, PowerShell Core, Docker Desktop and Docker Kinematic
 
 1. Open PowerShell Classic, using Run As Administrator, and run the following command:
