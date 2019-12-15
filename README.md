@@ -115,6 +115,7 @@ Useful directives include:
 * `COPY` to copy scripts to the docker engine (in order to run it).
 * `RUN` to run a command
 * `ENTRYPOINT` to define the command docker will run when starting the container.
+* `WORKDIR` sets the current working directory for `RUN`, `CMD`, `ENTRYPOINT`, `COPY`, and `ADD` instructions.
 * `HEALTHCHECK` to determine the health of the container ITSELF.  Do not abuse this to check on the health of external services.
 * Other directives cover things like metadata about who maintains this image, etc.
 * The [Dockerfile file format](https://docs.docker.com/engine/reference/builder/) / language is available online in the documentation.
