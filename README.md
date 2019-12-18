@@ -161,6 +161,8 @@ See also the Docker documentation best practice article: [Scan images for vulner
 
 The book says Python, but the first couple of chapters require effectively no Python knowledge.  The code is available here: https://github.com/Apress/practical-docker-with-python
 
+[Docker container development tools documentation - Visual Studio](https://docs.microsoft.com/en-us/visualstudio/containers/?view=vs-2019) - the portal for how to use Visual Studio and Docker together to debug your application.
+
 # Recommended "ASP.NET Core with Docker" Examples 
 
 https://github.com/rafaelfgx/DotNetCoreArchitecture
