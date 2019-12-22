@@ -155,6 +155,8 @@ docker history phola/ssrs --no-trunc
 
 See also the Docker documentation best practice article: [Scan images for vulnerabilities](https://docs.docker.com/ee/dtr/user/manage-images/scan-images-for-vulnerabilities/)
 
+Docker has also created an open source tool, [Docker Bench for Security](https://github.com/docker/docker-bench-security), to help identify common best practices for secure docker containers. 
+
 # Recommended Reading
 
 [Practical Docker with Python: Build, Release and Distribute your Python App with Docker](https://www.amazon.com/Practical-Docker-Python-Release-Distribute-ebook/dp/B07FYZFKHQ)
